@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmMarket</title>
+    <link rel="shortcut icon" type="image/png" href="images/fav.png">
+    <link rel="stylesheet" href="SouthernBelleFarm.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <!------------------------NavBar---------------------------->
+    <div>
+    <header>
+        <div class="store-navbar">
+            <a href="index.html"><img src="images/FarmFreshLogo.png"  alt="" width="200px"></a>
+        
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a class="current" href="">Stores</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Account</a></li>  
+            </ul>
+            
+        </nav> 
+        <img src="images/cart.png" class="cart" alt="Shopping-cart" width="28px" height="28px">
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" > 
+        </div>
+    </header>
+            <section class="banner">
+                <div class="text-box">
+                    <h1>Welcome to Southern Belle Farm Store</h1>
+                    <p>Southern Belle Farm is a family owned 330-acre working farm. We are open seasonally for fresh produce, berry picking, peach picking, fall fun, Christmas trees, and much more! Conveniently located in McDonough, Georgia, just south of Atlanta, Southern Belle Farm provides a wholesome family atmosphere where memorable experiences are made!</p>
+                    <p>Pick a cart and enjoy your shopping experience!</p>
+                </div>
+
+            </section>   
+        </div>  
+        
+    <!-----------------------------Body-------------------------------->
+    <div class="items">
+        <h2></h2>
+        <div class="items-row">
+            <div class="col4">
+                <div >
+                    <button class="state1">
+                        Best seller
+                    </button>
+                </div>
+                <img src="images/strawberry.jpg" alt="Strawberry">
+                    <h4>Strawberry</h4>
+                        <div class="rate-device">
+                            <div class="rate">
+                                <div class="add-to-cart">
+                                    <button class="add-to-cart-btn">Add <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                </div>
+                                <div class="rating-text">
+                                    <p>$2.10/kg</p>
+                                </div>
+                            </div>
+                            
+                        </div>   
+                </div>
+                <div class="col4">
+                    <div >
+                        <button class="state1">
+                            Best seller
+                        </button>
+                    </div>
+                    <img src="images/grapes.jpg" alt="Grapes">
+                        <h4>Grapes</h4>
+                            <div class="rate-device">
+                                <div class="rate">
+                                    <div class="add-to-cart">
+                                        <button class="add-to-cart-btn">Add <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                    </div>
+                                    <div class="rating-text">
+                                        <p>$2.10/kg</p>
+                                    </div>
+                                </div>
+                                
+                            </div>   
+                    </div>
+            <div class="col4">
+                <div >
+                    <button class="state2">
+                        Favourite
+                    </button>
+                </div>
+                <img src="images/mango.jpg" alt="Mango">
+                    <h4>Mango</h4>
+                    <div class="rate-device">
+                        <div class="rate">
+                            <div class="add-to-cart">
+                                <button class="add-to-cart-btn">Add <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            </div>
+                            <div class="rating-text">
+                                <p>$2.35/kg</p>
+                            </div>
+                        </div>
+                        
+                    </div> 
+                    
+            </div>
+            <div class="col4">
+                <div >
+                    <button class="state2">
+                        Favourite
+                    </button>
+                </div>
+                <img src="images/apple.jpg" alt="Apple">
+                    <h4>Apple</h4>
+                    <div class="rate-device">
+                        <div class="rate">
+                            <div class="add-to-cart">
+                                <button class="add-to-cart-btn">Add <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            </div>
+                            <div class="rating-text">
+                                <p>$1.35/kg</p>
+                            </div>
+                        </div>
+                        
+                    </div> 
+                    
+            </div>
+            <div class="col4">
+                <div >
+                    <button class="state1">
+                        Best seller
+                    </button>
+                </div>
+                <img src="images/mandarin.jpg" alt="Steak">
+                    <h4>Mandarin</h4>
+                    <div class="rate-device">
+                        <div class="rate">
+                            <div class="add-to-cart">
+                                <button class="add-to-cart-btn">Add <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            </div>
+                            <div class="rating-text">
+                                <p>$2.60/kg</p>
+                            </div>
+                        </div>
+                        
+                    </div> 
+                    
+            </div>
+        </div>
+    </div>
+
+    <!-------------------Second Column------------------->
+    <div class="items">
+        <h2></h2>
+        <div class="items-row">
+            <div class="col4">
+                <div >
+                    <button class="state2">
+                        Favourite
+                    </button>
+                </div>
+                <img src="images/feature-01.png" alt="Brocolli">
+                    <h4>Brocolli</h4>
+                        <div class="rate-device">
+                            <div class="rate">
+                                <div class="add-to-cart">
+                                    <button class="add-to-cart-btn">Add <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                </div>
+                                <div class="rating-text">
+                                    <p>$1.10/kg</p>
+                                </div>
+                            </div>
+                            
+                        </div>   
+                </div>
+                <div class="col4">
+                    <div >
+                        <button class="state2">
+                            Favourite
+                        </button>
+                    </div>
+                    <img src="images/cabbage.jpg" alt="Cabbage">
+                        <h4>Cabbage</h4>
+                            <div class="rate-device">
+                                <div class="rate">
+                                    <div class="add-to-cart">
+                                        <button class="add-to-cart-btn">Add <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                    </div>
+                                    <div class="rating-text">
+                                        <p>$2.68/kg</p>
+                                    </div>
+                                </div>
+                                
+                            </div>   
+                    </div>
+            <div class="col4">
+                <div >
+                    <button class="state1">
+                        Best seller
+                    </button>
+                </div>
+                <img src="images/feature-02.png" alt="Lettuce">
+                    <h4>Lettuce</h4>
+                    <div class="rate-device">
+                        <div class="rate">
+                            <div class="add-to-cart">
+                                <button class="add-to-cart-btn">Add <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            </div>
+                            <div class="rating-text">
+                                <p>$1.05/kg</p>
+                            </div>
+                        </div>
+                        
+                    </div> 
+                    
+            </div>
+            <div class="col4">
+                <div >
+                    <button class="state1">
+                        Best seller
+                    </button>
+                </div>
+                <img src="images/feature-03.png" alt="Tomatoes">
+                    <h4>Tomatoes</h4>
+                    <div class="rate-device">
+                        <div class="rate">
+                            <div class="add-to-cart">
+                                <button class="add-to-cart-btn">Add <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            </div>
+                            <div class="rating-text">
+                                <p>$1.35/kg</p>
+                            </div>
+                        </div>
+                        
+                    </div> 
+                    
+            </div>
+            <div class="col4">
+                <div >
+                    <button class="state1">
+                        Best seller
+                    </button>
+                </div>
+                <img src="images/bellpepper.jpg" alt="Steak">
+                    <h4>Pepper</h4>
+                    <div class="rate-device">
+                        <div class="rate">
+                            <div class="add-to-cart">
+                                <button class="add-to-cart-btn">Add <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            </div>
+                            <div class="rating-text">
+                                <p>$0.60/kg</p>
+                            </div>
+                        </div>
+                        
+                    </div> 
+                    
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------Third Column---------------------------------------->
+
+    <div class="items">
+        <h2></h2>
+        <div class="items-row">
+            <div class="col4">
+                <div >
+                    <button class="state1">
+                        Best seller
+                    </button>
+                </div>
+                <img src="images/potato.jpg" alt="Brocolli">
+                    <h4>Potato</h4>
+                        <div class="rate-device">
+                            <div class="rate">
+                                <div class="add-to-cart">
+                                    <button class="add-to-cart-btn">Add <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                </div>
+                                <div class="rating-text">
+                                    <p>$1.50/kg</p>
+                                </div>
+                            </div>
+                            
+                        </div>   
+                </div>
+                <div class="col4">
+                    <div >
+                        <button class="state2">
+                            Favourite
+                        </button>
+                    </div>
+                    <img src="images/corn.jpg" alt="Corn">
+                        <h4>Corn</h4>
+                            <div class="rate-device">
+                                <div class="rate">
+                                    <div class="add-to-cart">
+                                        <button class="add-to-cart-btn">Add <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                    </div>
+                                    <div class="rating-text">
+                                        <p>$0.90/kg</p>
+                                    </div>
+                                </div>
+                                
+                            </div>   
+                    </div>
+            <div class="col4">
+                <div >
+                    <button class="state2">
+                        Favourite
+                    </button>
+                </div>
+                <img src="images/soybean.jpg" alt="Beans">
+                    <h4>Soy Beans</h4>
+                    <div class="rate-device">
+                        <div class="rate">
+                            <div class="add-to-cart">
+                                <button class="add-to-cart-btn">Add <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            </div>
+                            <div class="rating-text">
+                                <p>$1.15/kg</p>
+                            </div>
+                        </div>
+                        
+                    </div> 
+                    
+            </div>
+            <div class="col4">
+                <div >
+                    <button class="state2">
+                        Favourite
+                    </button>
+                </div>
+                <img src="images/rice.jpg" alt="Rice">
+                    <h4>Long Grain Rice</h4>
+                    <div class="rate-device">
+                        <div class="rate">
+                            <div class="add-to-cart">
+                                <button class="add-to-cart-btn">Add <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            </div>
+                            <div class="rating-text">
+                                <p>$2.37/kg</p>
+                            </div>
+                        </div>
+                        
+                    </div> 
+                    
+            </div>
+            <div class="col4">
+                <div >
+                    <button class="state1">
+                        Best seller
+                    </button>
+                </div>
+                <img src="images/wheat.jpg" alt="wheat">
+                    <h4>Wheat</h4>
+                    <div class="rate-device">
+                        <div class="rate">
+                            <div class="add-to-cart">
+                                <button class="add-to-cart-btn">Add <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                            </div>
+                            <div class="rating-text">
+                                <p>$1.48/kg</p>
+                            </div>
+                        </div>
+                        
+                    </div> 
+                    
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!------------------------Footer-------------------------------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col1">
+                    <h3>Download Our App</h3>
+                    <p>Download App from the iOS AppStore<br> & Android PlayStore</p>
+                    <div class="app-logo">
+                        <img src="images/appstore.png" alt="AppStore">
+                        <img src="images/playstore.png" alt="PlayStore">
+                    </div>
+                </div>
+                <div class="footer-col2">
+                    <img src="images/footerlogo.png" alt="">
+                    <p>12345 Decefield Road.<br> Laurel, New York, New York.<br> +267 77 786 152</p>
+                </div>
+                <div class="footer-col3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a>Sale</a></li>
+                        <li><a>Coupons</a></li>
+                        <li><a>Return Policy</a></li>
+                        <li><a>Partners</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col4">
+                    <h3>Follow us</h3>
+                    <a href=""> <i class="fa fa-instagram fa-2x" aria-hidden="true" ></i></a> 
+                    <a href=""><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2023 | devBolten</p>
+        </div>
+    </div>  
+
+        
+    <script>
+        var MenuItems = document.getElementById("MenuItems")
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "1000px";
+                }
+            else 
+                {
+                    MenuItems.style.maxHeight = "0px";
+                }
+        }
+    </script>
+    <script src="nav.js"></script>
+    <script src="navscroll.js"></script>
+    <script src="https://kit.fontawesome.com/99f3137f6d.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+ .store-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  transition: 0.6s;
+  padding: 20px 80px 10px;
+  z-index: 3;
+ }
+
+ .store-navbar nav {
+  flex: 1;
+ }
+
+ .store-navbar nav ul {
+  position: relative;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+ }
+
+ .store-navbar nav ul li {
+  position: relative;
+  list-style: none;
+ }
+
+ .store-navbar nav ul li a {
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+ }
+
+ .store-navbar.sticky {
+  background: #fff;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.12);
+ }
+
+ nav ul li a.current {
+  color: rgb(18, 218, 0);
+}
+
+ .store-navbar.sticky nav ul li a {
+  color: black;
+ }
+
+ .store-navbar.sticky nav ul li a.current {
+  color:  rgb(18, 218, 0);
+ }
+
+.menu-icon {
+  display: none;
+ }
+
+ .banner {
+  width: 100%;
+  height: 100vh;
+  background: url(images/southernbelle.jpg);
+  background-size: cover;
+ }
+
+ .banner .text-box {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  backdrop-filter: blur(15px);
+  padding: 30px 80px 50px 80px;
+  top: 60%;
+}
+
+
+.banner .text-box h1 {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  justify-content: center;
+}
+
+.banner .text-box p {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding-bottom: 10px;
+  justify-content: center;
+  font-weight: 300;
+}
+/*-----------------------------Content------------------------------------------*/
+.items {
+  margin: 20px 80px;
+}
+.items-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.items-row .col4 {
+  flex-basis: 15%;
+  margin: 20px 10px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.items-row .col4 img {
+  width: 200px;
+  height: 200px;
+}
+
+.col4 .state1 {
+  position: absolute;
+  width: 80px;
+  height: 30px;
+  background-color: #fff;
+  color: #c63623;
+  border: 1px solid #ff523b;
+  border-radius: 3px;
+  margin: 3px 3px;
+}
+
+.col4 .state2 {
+  position: absolute;
+  width: 80px;
+  height: 30px;
+  background-color: #fff;
+  color: #0e3dcb;
+  border: 1px solid #2553c0;
+  border-radius: 3px;
+  margin: 3px 3px;
+}
+
+.col4 h4 {
+  padding-left: 7px;
+  font-weight: 400;
+}
+
+.col4 .add-to-cart-btn {
+  border-radius: 5px;
+  padding: 5px 7px;
+  outline: none;
+  border: 0px;
+  color: #fff;
+  background: #ff523b;
+  cursor: pointer;
+  display: block;
+  transition: all 0.3s;
+}
+
+.col4 .add-to-cart-btn:hover {
+  transition: .5s;
+  background-color: #555;
+}
+
+.col4 .rate {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px;
+}
+
+/*-----------------------------Footer--------------------------------------------*/
+
+.footer {
+  padding: 60px 80px 20px 80px;
+  background-color: rgb(0, 0, 0);
+}
+
+.footer .container .row {
+  display: flex;
+}
+
+.footer-col1, .footer-col2, .footer-col3, .footer-col4 {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-col1, .footer-col3, .footer-col4 h3 {
+  color: rgb(18, 170, 3);
+  margin-bottom: 5px;
+  font-weight: 400px;
+}
+
+.footer-col1 p {
+  color: #555;
+}
+
+.footer-col2 p {
+  color: #555;
+}
+
+.footer-col3 ul {
+  list-style-type: none;
+}
+
+.footer-col3 ul a {
+  color: #fff;
+}
+
+.footer-col3 ul a:hover {
+  color: #3ed071;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.footer-col1 .app-logo img {
+  width: 150px;
+  margin-top: 10px;
+}
+
+.footer-col2 img {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.footer-col4 .fa {
+  color: #fff;
+  padding: 0 7px;
+}
+
+.footer-col4 .fa:hover {
+  color: #3ed071;
+  transition: .5s;
+}
+
+.footer hr {
+  border: none;
+  background: #fff;
+  height: 1px;
+  margin: 20px 0;
+}
+
+.copyright {
+  text-align: center;
+  color: #555;
+}
